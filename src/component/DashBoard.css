@@ -1,0 +1,274 @@
+.dashlpenal{
+    height:90vh;
+    border-radius: 30px;
+    margin-top:40px;
+background-color:#6CDFCE;
+}
+.togglebar{
+    display: none;
+}
+.togbox{
+position:relative!important;
+width:100%;
+height:50px;
+}
+.togbox .togs{
+    position:absolute!important;
+    top:0px;
+    right:0px;  
+    display:none  
+   }
+.dashlpenal h1{
+    font-size:45px;
+    letter-spacing: -2px;
+}
+.dashlpenal .logol{
+    font-size:15px;
+    transform:translateY(-10px)
+}
+.dashlogo span{    
+    color:rgb(252, 120, 72)!important;
+}
+
+.dashlpenal ul li{
+    list-style-type:none;
+    display:flex;
+    justify-content: flex-start;
+    align-items:flex-end;
+}
+.dashlpenal table{
+margin-left:20px;
+}
+.dashlpenal table td p{
+    margin:0;
+    padding:0;
+    font-size:20px;
+    color:#fff;    
+    margin-top:20px;
+   
+}
+.dashlpenal table td i{
+    margin:0;
+    padding:0;
+    color:#fff;
+    margin-right:5px;    
+    margin-top:20px;  
+    font-size:20px;
+
+}
+
+.dashboard .topbox h3{
+
+    color:#6CDFCE;
+}
+
+.dashboard .topbox p{
+    font-size:15px;
+    font-weight:bold;
+}
+.dashboard .admidb p{
+margin:0;
+color:#6CDFCE;
+font-size:15px;
+font-weight:500;
+}
+
+.dashboard .admidb .bbox img{
+    height:45px;
+}
+
+.dashboard .admidb .bbox{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.dashboard  .profile h6{
+    color:#6CDFCE;
+    font-weight:500;
+}
+.dashboard  .profile p{
+    font-size:13px;
+}
+.dashboard  .profile i{
+    color:#6CDFCE;
+}
+
+.dashboard .options img{
+    width:30px;
+}
+
+.dashboard .options .title{
+    color:#6CDFCE;
+    font-weight:500;
+}
+
+.dashboard .options .text{
+    font-size:10px;
+}
+
+.dashboard .datebox .date{
+    color:#6CDFCE;
+    font-weight:bold;
+}
+.dashboard .datebox .month{
+    font-size: 15px;
+}
+
+.dashboard .datebox p{
+    font-size:15px;
+    margin:0;
+}
+
+.dashboard .datebox .num{
+    color:#6CDFCE;
+    font-weight:bold;
+}
+
+.graphtitle h2{
+    color:#6CDFCE;
+}
+
+.graphtitle p{
+    font-weight:bold;
+}
+.graphtitle .title2{
+    color:#6CDFCE;
+}
+.graphtitle{
+    transform:translateY(30px);
+}
+.graphtitle .title3{
+    background-color:#6CDFCE;
+    color:#fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+   width:70px;
+}
+
+.toglayer{
+    top:0;
+    right:0;
+    position:absolute!important;
+    z-index:3;
+    background-color:#6CDFCE;
+    height:100vh;
+    width:100%;
+    overflow: hidden;
+}
+
+.toglayer table p{
+margin:10px;
+font-size:25px;
+color:#fff;
+}
+.toglayer table i{
+    margin:10px;
+    font-size:22px;
+    color:#fff;
+    margin-right:5px;
+}
+
+.toglayer h1{
+    font-size:45px;
+}
+.toglayer .logol{
+    transform:translateY(-10px);
+}
+
+
+@media only screen and (max-width:1300px){
+    .dashlpenal table td p{
+        font-size:17px;
+    }
+    .dashlpenal table td i{
+        font-size:17px;
+    }
+
+}
+
+@media only screen and (max-width:1200px){
+    .togglebar{
+display:block;
+    }
+    .dashboard .dashleft{
+        display:none;
+     
+    }    
+    .bar{
+        border-radius: 25px;
+    }
+    .start{
+        display:block;
+    }
+    .togbox .togs{
+        position:absolute!important;
+        top:25px;
+        right:35px;  
+        display:block!important;
+        font-size:35px;
+
+        transition:0.5s;
+       }
+
+       .togbox .start{
+           color:#6CDFCE;
+       }
+
+       .togglebar{
+           display:block!important;
+       }
+}
+
+
+@media only screen and (max-width:1200px){
+
+    .togbox .togs{
+        position:absolute!important;
+        top:25px;
+        right:35px;  
+        display:block!important;
+        font-size:20px;
+        color:#6CDFCE;
+        z-index: 4!important;
+       }
+
+       .dashleft{         
+            width:100%;
+            height:100vh!important;
+            z-index: 2!important;
+            margin-top:0!important;
+
+       }
+}
+
+@media only screen and (max-width:1200px){
+    .total3{
+        margin-top:25px!important;
+    }
+    .total4{
+        margin-top:25px!important;
+    }
+    .datebox1{
+        margin-top:0px!important;
+    }
+}
+.datebox1{
+    margin-top:250px!important;
+}
+
+@media only screen and (max-width:600px){
+    .datebox1{
+        margin-top:0px!important;
+    }
+
+    .graphtitle{
+        flex-direction: column;
+        align-items: center;
+    }
+    .graphtitle p{
+        text-align: center;
+    }
+}

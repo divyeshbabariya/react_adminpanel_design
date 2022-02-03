@@ -1,0 +1,84 @@
+.newbill input{
+    width:100%;
+    height:50px;
+    border:1px solid #6CDFCE;
+    outline: none;
+    border-radius: 10px;
+    font-size:20px;
+}
+.newbill p{
+    margin:2px
+}
+
+.newbill .second{
+    margin-top:50px;
+}
+
+.newbill .addbtn{
+    background-color:#6CDFCE;
+    width:100px;
+    height:45px;
+    float:right;
+    margin-top:50px;
+  transform: translateX(-20px);
+}
+
+.newbill .addbtn:hover{
+    background-color:#6CDFCE;
+}
+
+.newbill .addbtn p{
+    text-transform: capitalize;
+    margin:0;
+    font-size:18px;
+    color:#fff;
+}
+
+.newbill table{
+    width:100%; 
+    min-width:800px;
+    overflow: scroll;
+}
+
+.newbill table thead tr{
+    border-radius: 15px;
+    background-color:#6cdfce9a;
+}
+
+.newbill table tr{
+    border-bottom:1px solid rgba(0, 0, 0, 0.418); 
+    border-radius: 15px;
+    padding:10px;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.newbill table tr:hover{
+    background-color:#6cdfce9a;
+}
+
+.newbill table tr td, th{
+    padding:10px 0;
+    transition:0.5s
+}
+.newbill .tablebox{
+    overflow:scroll;
+}
+
+
+@media only screen and (max-width:767px){
+    .newbill .second{
+        margin-top:0px!important;
+    }
+
+    .newbill p{
+        margin-top:15px;
+    }
+    .newbill h1{
+        text-align:center;
+        font-size:40px;
+        margin:25px auto 10px!important;
+    }
+}
