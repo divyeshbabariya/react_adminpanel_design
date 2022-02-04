@@ -37,7 +37,9 @@
 .newbill table{
     width:100%; 
     min-width:800px;
-    overflow: scroll;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
 }
 
 .newbill table thead tr{
@@ -66,6 +68,13 @@
 .newbill .tablebox{
     overflow:scroll;
 }
+.newbill .secondbtncol span{
+    color:#6CDFCE;
+}
+
+.holink{
+    text-decoration: none;
+}
 
 
 @media only screen and (max-width:767px){
@@ -80,5 +89,28 @@
         text-align:center;
         font-size:40px;
         margin:25px auto 10px!important;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .newbill .addbtn{
+      float:none;
+     margin: 30px auto ;
+     transform: translateX(0px)!important;
+          
+    }
+    .newbill .fistbtncol{
+        display:flex;
+        justify-content: center;
+    }
+    .newbill .secondbtncol{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column;
+    }
+    .newbill .secondbtncol .addbtn{
+        margin:0px;
+        margin-top:30px;
     }
 }

@@ -2,9 +2,15 @@ import React, { Fragment } from "react";
 import "./NewBill.css";
 import { Button } from "@material-ui/core";
 
+
+
+
 const NewBill = () => {
   return (
     <Fragment>
+
+
+
       <div className="container-fluid newbill pb-5">
         <div className="row m-auto">
           <div className="col-12">
@@ -39,7 +45,7 @@ const NewBill = () => {
             </div>
           </div>
 
-          <div className="row second m-auto">
+          <div className="row second mt-3 m-auto">
             <div className="col-lg-3 col-md-6 col-sm-12 col-12">
               <div className="row">
                 <div className="col-md-11 m-auto">
@@ -77,7 +83,7 @@ const NewBill = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-12">
+            <div className="col-12 fistbtncol">
               <Button color="primary" variant="contained" className="addbtn">
                 <p>Add</p>
               </Button>
@@ -86,7 +92,7 @@ const NewBill = () => {
         </div>
 
         <div className="row">
-          <div className="col-12 mt-5 tablebox">
+          <div className="col-12 mt-3 tablebox">
             <table>
               <thead>
                 <tr>
@@ -144,13 +150,16 @@ const NewBill = () => {
         </div>
 
         <div className="row">
-          <div className="col-12">
-            <Button color="primary" variant="contained" className="addbtn mx-3">
+          <div className="col-12 secondbtncol d-flex justify-content-between align-items-center px-5">
+            <h1 className="m-0">Total <span>$345</span></h1>
+          <div>
+          <Button color="primary" variant="contained" className="addbtn mx-3">
               <p>Reset</p>
             </Button>
             <Button color="primary" variant="contained" className="addbtn">
               <p>Preview</p>
             </Button>
+            </div>
           </div>
         </div>
       </div>

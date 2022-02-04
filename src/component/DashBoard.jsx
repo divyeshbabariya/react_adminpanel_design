@@ -1,6 +1,7 @@
 import React, { Fragment, useState } from "react";
 import "./DashBoard.css";
 import DashPenal from "./DashPenal";
+import Header from "./Header";
 import {
   BarChart,
   Bar,
@@ -48,6 +49,7 @@ const DashBoard = () => {
 
   return (
     <Fragment>
+
       <div className="container-fluid togglebar">
         <div className="row">
           <div className="col togbox p-0 m-0">
